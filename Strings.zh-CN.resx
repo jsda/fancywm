@@ -1,0 +1,976 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, 区域性=neutral, 公钥标记=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, 区域性=neutral, 公钥标记=b77a5c561934e089</value>
+  </resheader>
+  <data name="Keybinding.Cancel.Caption">
+    <value>取消</value>
+  </data>
+  <data name="Keybinding.Cancel.Description">
+    <value>取消该操作</value>
+  </data>
+  <data name="Keybinding.CreateHorizontalPanel.Caption">
+    <value>包裹为水平面板</value>
+  </data>
+  <data name="Keybinding.CreateHorizontalPanel.Description">
+    <value>围绕当前聚焦窗口创建新的水平面板</value>
+  </data>
+  <data name="Keybinding.CreateStackPanel.Caption">
+    <value>包裹为堆叠面板</value>
+  </data>
+  <data name="Keybinding.CreateStackPanel.Description">
+    <value>围绕当前聚焦窗口创建新的堆叠面板</value>
+  </data>
+  <data name="Keybinding.CreateVerticalPanel.Caption">
+    <value>包裹为垂直面板</value>
+  </data>
+  <data name="Keybinding.CreateVerticalPanel.Description">
+    <value>围绕当前聚焦窗口创建新的垂直面板</value>
+  </data>
+  <data name="Keybinding.DecreaseHeight.Caption">
+    <value>降低高度</value>
+  </data>
+  <data name="Keybinding.DecreaseHeight.Description">
+    <value>降低当前聚焦窗口的高度</value>
+  </data>
+  <data name="Keybinding.DecreaseWidth.Caption">
+    <value>降低宽度</value>
+  </data>
+  <data name="Keybinding.DecreaseWidth.Description">
+    <value>降低当前聚焦窗口的宽度</value>
+  </data>
+  <data name="Keybinding.IncreaseHeight.Caption">
+    <value>增加高度</value>
+  </data>
+  <data name="Keybinding.IncreaseHeight.Description">
+    <value>增加当前聚焦窗口的高度</value>
+  </data>
+  <data name="Keybinding.IncreaseWidth.Caption">
+    <value>增加宽度</value>
+  </data>
+  <data name="Keybinding.IncreaseWidth.Description">
+    <value>增加当前聚焦窗口的宽度</value>
+  </data>
+  <data name="Keybinding.MoveDown.Caption">
+    <value>向下移动</value>
+  </data>
+  <data name="Keybinding.MoveDown.Description">
+    <value>将窗口移动到下方窗口旁边</value>
+  </data>
+  <data name="Keybinding.MoveFocusDown.Caption">
+    <value>向下切换焦点</value>
+  </data>
+  <data name="Keybinding.MoveFocusDown.Description">
+    <value>将焦点移动到当前窗口下方的窗口</value>
+  </data>
+  <data name="Keybinding.MoveFocusLeft.Caption">
+    <value>向左切换焦点</value>
+  </data>
+  <data name="Keybinding.MoveFocusLeft.Description">
+    <value>将焦点移动到当前窗口左侧的窗口</value>
+  </data>
+  <data name="Keybinding.MoveFocusRight.Caption">
+    <value>向右切换焦点</value>
+  </data>
+  <data name="Keybinding.MoveFocusRight.Description">
+    <value>将焦点移动到当前窗口右侧的窗口</value>
+  </data>
+  <data name="Keybinding.MoveFocusUp.Caption">
+    <value>向上切换焦点</value>
+  </data>
+  <data name="Keybinding.MoveFocusUp.Description">
+    <value>将焦点移动到当前窗口上方的窗口</value>
+  </data>
+  <data name="Keybinding.MoveLeft.Caption">
+    <value>向左移动</value>
+  </data>
+  <data name="Keybinding.MoveLeft.Description">
+    <value>将窗口移动到左侧窗口旁边</value>
+  </data>
+  <data name="Keybinding.MoveRight.Caption">
+    <value>向右移动</value>
+  </data>
+  <data name="Keybinding.MoveRight.Description">
+    <value>将窗口移动到右侧窗口旁边</value>
+  </data>
+  <data name="Keybinding.MoveUp.Caption">
+    <value>向上移动</value>
+  </data>
+  <data name="Keybinding.MoveUp.Description">
+    <value>将窗口移动到上方窗口旁边</value>
+  </data>
+  <data name="Keybinding.PullWindowUp.Caption">
+    <value>移动到上一级</value>
+  </data>
+  <data name="Keybinding.PullWindowUp.Description">
+    <value>将窗口移出其所在的面板</value>
+  </data>
+  <data name="Keybinding.RefreshWorkspace.Caption">
+    <value>强制刷新工作区</value>
+  </data>
+  <data name="Keybinding.RefreshWorkspace.Description">
+    <value>强制对整个工作区执行一次变更检测</value>
+  </data>
+  <data name="Keybinding.SwapDown.Caption">
+    <value>向下交换</value>
+  </data>
+  <data name="Keybinding.SwapDown.Description">
+    <value>将当前窗口与下方窗口交换位置</value>
+  </data>
+  <data name="Keybinding.SwapLeft.Caption">
+    <value>向左交换</value>
+  </data>
+  <data name="Keybinding.SwapLeft.Description">
+    <value>将当前窗口与左侧窗口交换位置</value>
+  </data>
+  <data name="Keybinding.SwapRight.Caption">
+    <value>向右交换</value>
+  </data>
+  <data name="Keybinding.SwapRight.Description">
+    <value>将当前窗口与右侧窗口交换位置</value>
+  </data>
+  <data name="Keybinding.SwapUp.Caption">
+    <value>向上交换</value>
+  </data>
+  <data name="Keybinding.SwapUp.Description">
+    <value>将当前窗口与上方窗口交换位置</value>
+  </data>
+  <data name="Keybinding.ToggleFloatingMode.Caption">
+    <value>浮动窗口</value>
+  </data>
+  <data name="Keybinding.ToggleFloatingMode.Description">
+    <value>切换当前聚焦窗口的浮动模式</value>
+  </data>
+  <data name="Keybinding.ToggleManager.Caption">
+    <value>切换窗口管理</value>
+  </data>
+  <data name="Keybinding.ToggleManager.Description">
+    <value>切换 FancyWM 的窗口管理功能</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop1.Caption">
+    <value>切换到桌面 1</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop1.Description">
+    <value>从当前虚拟桌面切换到虚拟桌面 1</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop2.Caption">
+    <value>切换到桌面 2</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop2.Description">
+    <value>从当前虚拟桌面切换到虚拟桌面 2</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop3.Caption">
+    <value>切换到桌面 3</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop3.Description">
+    <value>从当前虚拟桌面切换到虚拟桌面 3</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop4.Caption">
+    <value>切换到桌面 4</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop4.Description">
+    <value>从当前虚拟桌面切换到虚拟桌面 4</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop5.Caption">
+    <value>切换到桌面 5</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop5.Description">
+    <value>从当前虚拟桌面切换到虚拟桌面 5</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop6.Caption">
+    <value>切换到桌面 6</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop6.Description">
+    <value>从当前虚拟桌面切换到虚拟桌面 6</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop7.Caption">
+    <value>切换到桌面 7</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop7.Description">
+    <value>从当前虚拟桌面切换到虚拟桌面 7</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop8.Caption" xml:space="preserve">
+    <value>切换到桌面 8</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop8.Description" xml:space="preserve">
+    <value>从当前虚拟桌面切换到虚拟桌面 8</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop9.Caption" xml:space="preserve">
+    <value>切换到桌面 9</value>
+  </data>
+  <data name="Keybinding.SwitchToDesktop9.Description" xml:space="preserve">
+    <value>从当前虚拟桌面切换到虚拟桌面 9</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop1.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 1</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop1.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 1</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop2.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 2</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop2.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 2</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop3.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 3</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop3.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 3</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop4.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 4</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop4.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 4</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop5.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 5</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop5.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 5</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop6.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 6</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop6.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 6</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop7.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 7</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop7.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 7</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop8.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 8</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop8.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 8</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop9.Caption" xml:space="preserve">
+    <value>将窗口移动到桌面 9</value>
+  </data>
+  <data name="Keybinding.MoveToDesktop9.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到虚拟桌面 9</value>
+  </data>
+  <data name="Interaction.AllocateNewPanelSpace" xml:space="preserve">
+    <value>为新面板预留空白空间</value>
+  </data>
+  <data name="Interaction.AllocateNewPanelSpace.Description" xml:space="preserve">
+    <value>新面板在添加第二个窗口之前将保持空白空间。</value>
+  </data>
+  <data name="Interaction.AnimateWindowMovement" xml:space="preserve">
+    <value>窗口移动动画</value>
+  </data>
+  <data name="General.Caption" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="General.ShowSettingsConfig" xml:space="preserve">
+    <value>在所在文件夹中显示 settings.json</value>
+  </data>
+  <data name="Interface.OverrideAccentColor" xml:space="preserve">
+    <value>覆盖强调色</value>
+  </data>
+  <data name="Interface.PanelFontSize" xml:space="preserve">
+    <value>面板字体大小</value>
+  </data>
+  <data name="Interface.PanelHeight" xml:space="preserve">
+    <value>面板高度</value>
+  </data>
+  <data name="General.RunsAsAdmin" xml:space="preserve">
+    <value>以管理员权限运行</value>
+  </data>
+  <data name="General.RunsAsAdmin.AdminDescription" xml:space="preserve">
+    <value>FancyWM 当前以管理员权限运行，可以管理所有窗口。</value>
+  </data>
+  <data name="General.RunsAsAdmin.NonAdminDescription" xml:space="preserve">
+    <value>除非以管理员身份运行，否则 FancyWM 无法管理来自提升权限进程的窗口。启用此选项并重启 FancyWM 以解决此问题。</value>
+  </data>
+  <data name="General.RunsAtStartup" xml:space="preserve">
+    <value>系统启动时自动运行</value>
+  </data>
+  <data name="Interface.ShowContextHints" xml:space="preserve">
+    <value>在弹出窗口中显示上下文提示</value>
+  </data>
+  <data name="Interface.ShowContextHints.Description" xml:space="preserve">
+    <value>在 1 秒无操作后显示可用快捷键列表。命令弹出窗口会在屏幕上停留更长时间，但你可以将其关闭</value>
+  </data>
+  <data name="Interface.ShowFocus" xml:space="preserve">
+    <value>显示当前聚焦窗口的边框 ᴺᴱᵂ</value>
+  </data>
+  <data name="Interface.ShowFocus.Description" xml:space="preserve">
+    <value>高亮当前聚焦的窗口。</value>
+  </data>
+  <data name="Interface.ShowFocusDuringAction" xml:space="preserve">
+    <value>显示聚焦窗口提示</value>
+  </data>
+  <data name="Interface.ShowFocusDuringAction.Description" xml:space="preserve">
+    <value>在显示命令弹出窗口时高亮当前聚焦的窗口。</value>
+  </data>
+  <data name="General.ShowStartupWindow" xml:space="preserve">
+    <value>程序启动时显示启动窗口</value>
+  </data>
+  <data name="General.SoundOnFailure" xml:space="preserve">
+    <value>操作失败时播放声音</value>
+  </data>
+  <data name="General.Sounds" xml:space="preserve">
+    <value>声音</value>
+  </data>
+  <data name="General.Startup" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="Interaction.TilingBehavior" xml:space="preserve">
+    <value>平铺行为</value>
+  </data>
+  <data name="Interface.WindowPadding" xml:space="preserve">
+    <value>窗口间距</value>
+  </data>
+  <data name="General.Displays" xml:space="preserve">
+    <value>显示器</value>
+  </data>
+  <data name="General.MultiMonitorSupport" xml:space="preserve">
+    <value>在所有连接的显示器上启用平铺</value>
+  </data>
+  <data name="About.AppVersion" xml:space="preserve">
+    <value>应用版本：</value>
+  </data>
+  <data name="About.Caption" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="About.Copyright" xml:space="preserve">
+    <value>版权所有 © 2024 Vesko Karaganev。保留所有权利。</value>
+  </data>
+  <data name="About.Credits" xml:space="preserve">
+    <value>致谢</value>
+  </data>
+  <data name="About.Credits.Description" xml:space="preserve">
+    <value>以下优秀的开源软件使本项目成为可能。</value>
+  </data>
+  <data name="Advanced.Caption" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="Advanced.Scripting.CreateScript" xml:space="preserve">
+    <value>生成入门脚本</value>
+  </data>
+  <data name="Advanced.Scripting.Description" xml:space="preserve">
+    <value>使用 AutoHotkey 轻松扩展 FancyWM —— 一个用于创建简单 Windows 快捷操作的免费工具。无需编程：生成一个可编辑的脚本，其中包含所有命令示例。</value>
+  </data>
+  <data name="ContactTheDeveloper" xml:space="preserve">
+    <value>联系开发者</value>
+  </data>
+  <data name="Details" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="General.MultiMonitorSupport.Description" xml:space="preserve">
+    <value>重启 FancyWM 以使更改生效！</value>
+  </data>
+  <data name="ErrorMessageBox.Caption" xml:space="preserve">
+    <value>FancyWM 发生了致命错误！</value>
+  </data>
+  <data name="ErrorMessageBox.Description.CheckForSolution" xml:space="preserve">
+    <value>FancyWM 即将关闭。如果此问题持续存在，请查找解决方案和/或在以下位置提交错误报告</value>
+  </data>
+  <data name="ErrorMessageBox.Description.SubmittingALog" xml:space="preserve">
+    <value>提交日志有助于诊断问题。日志文件包含导致崩溃的事件历史记录。敏感信息已被模糊处理。</value>
+  </data>
+  <data name="ErrorMessageBox.SubmitLog" xml:space="preserve">
+    <value>提交日志</value>
+  </data>
+  <data name="Experimental" xml:space="preserve">
+    <value>实验性功能</value>
+  </data>
+  <data name="Help.Caption" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="Keybinding.ActivationHotkey" xml:space="preserve">
+    <value>激活快捷键</value>
+  </data>
+  <data name="Keybindings.Caption" xml:space="preserve">
+    <value>快捷键绑定</value>
+  </data>
+  <data name="Keybindings.DirectMode.About" xml:space="preserve">
+    <value>将该快捷键注册为系统热键，使其无需激活快捷键即可使用。该快捷键必须至少包含一个修饰键（Ctrl、Shift、Alt、Win）。</value>
+  </data>
+  <data name="Keybindings.DirectMode.FailModes" xml:space="preserve">
+    <value>如果某个快捷键已被 Windows 或其他应用程序占用，则 FancyWM 无法注册该热键。</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="Quit" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="Rules.Caption" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="Rules.ClassIgnoreList" xml:space="preserve">
+    <value>根据窗口类自动设为浮动</value>
+  </data>
+  <data name="Rules.ClassIgnoreList.Description" xml:space="preserve">
+    <value>对于匹配窗口类的窗口，将自动启用浮动模式。匹配不区分大小写，并且可以使用正则表达式。</value>
+  </data>
+  <data name="Rules.FloatingWindows" xml:space="preserve">
+    <value>浮动窗口</value>
+  </data>
+  <data name="Rules.ProcessIgnoreList" xml:space="preserve">
+    <value>根据进程名称自动设为浮动</value>
+  </data>
+  <data name="Rules.ProcessIgnoreList.Description" xml:space="preserve">
+    <value>对于属于指定进程的窗口，将自动启用浮动模式。每行输入一个进程名，不包含“.exe”扩展名（例如“explorer”）。匹配不区分大小写，并且可以使用正则表达式。</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="Settings.FancyWM" xml:space="preserve">
+    <value>FancyWM 设置</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="PleaseSee" xml:space="preserve">
+    <value>请查看</value>
+  </data>
+  <data name="Startup.Caption" xml:space="preserve">
+    <value>FancyWM 启动</value>
+  </data>
+  <data name="Startup.FancyWMIsRunning" xml:space="preserve">
+    <value>FancyWM 已启动！</value>
+  </data>
+  <data name="Startup.FirstTimeUsers" xml:space="preserve">
+    <value>首次使用用户：</value>
+  </data>
+  <data name="Startup.InSystemTray" xml:space="preserve">
+    <value>你可以随时在系统托盘中找到它。</value>
+  </data>
+  <data name="Startup.Paragraph1" xml:space="preserve">
+    <value>要更改当前聚焦窗口的布局，请按下激活快捷键 [⇧ Shift] 和 [⊞ Win]，当提示弹窗出现后，按下 [H]、[V] 或 [S]。</value>
+  </data>
+  <data name="Startup.Paragraph2" xml:space="preserve">
+    <value>你也可以将鼠标悬停在当前窗口的顶部边框上来更改布局。</value>
+  </data>
+  <data name="Startup.ShowThisWindow" xml:space="preserve">
+    <value>在 FancyWM 启动时显示此窗口</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="ClearAll" xml:space="preserve">
+    <value>全部清除</value>
+  </data>
+  <data name="Common.Moved" xml:space="preserve">
+    <value>已移动</value>
+  </data>
+  <data name="Common.To" xml:space="preserve">
+    <value>到</value>
+  </data>
+  <data name="Common.Window" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Messages.AskForReview" xml:space="preserve">
+    <value>如果你喜欢它，请花点时间在 Microsoft Store 上进行评价，或考虑赞助该项目的开发。</value>
+  </data>
+  <data name="Messages.CannotBeResizedToFit" xml:space="preserve">
+    <value>该窗口无法调整大小以适配！</value>
+  </data>
+  <data name="Messages.CouldNot" xml:space="preserve">
+    <value>无法</value>
+  </data>
+  <data name="Messages.DirectHotkeyRegistrationFailed" xml:space="preserve">
+    <value>无法将一个或多个快捷键注册为系统热键！</value>
+  </data>
+  <data name="Messages.EnjoyingFancyWM" xml:space="preserve">
+    <value>喜欢 FancyWM 吗？</value>
+  </data>
+  <data name="Messages.FloatingModeEnabledFor" xml:space="preserve">
+    <value>已为以下对象启用浮动模式：</value>
+  </data>
+  <data name="Messages.IsAlreadyOn" xml:space="preserve">
+    <value>已处于开启状态</value>
+  </data>
+  <data name="Messages.NoFocusedWindow" xml:space="preserve">
+    <value>没有聚焦的窗口！</value>
+  </data>
+  <data name="Messages.NothingIsAssignedTo" xml:space="preserve">
+    <value>没有分配给</value>
+  </data>
+  <data name="Messages.NothingToDo" xml:space="preserve">
+    <value>此桌面上无可执行操作。</value>
+  </data>
+  <data name="Messages.OperationFailed" xml:space="preserve">
+    <value>操作失败！</value>
+  </data>
+  <data name="Messages.PressF12ForHelp" xml:space="preserve">
+    <value>按 F12 获取帮助</value>
+  </data>
+  <data name="Messages.ReceivedInvalidCommand" xml:space="preserve">
+    <value>收到无效命令</value>
+  </data>
+  <data name="Messages.StoreCommunicationFailed.Caption" xml:space="preserve">
+    <value>FancyWM 错误</value>
+  </data>
+  <data name="Messages.StoreCommunicationFailed.Description" xml:space="preserve">
+    <value>与 Microsoft Store 通信失败，错误代码为</value>
+  </data>
+  <data name="Messages.UnrecognizedKeybinding" xml:space="preserve">
+    <value>无法识别的快捷键！</value>
+  </data>
+  <data name="Messages.UpdateCheck.Caption" xml:space="preserve">
+    <value>FancyWM 更新检查</value>
+  </data>
+  <data name="Messages.UpdateCheck.UpdateAvailable" xml:space="preserve">
+    <value>有可用的 FancyWM 新版本！是否在后台下载最新更新？</value>
+  </data>
+  <data name="Messages.UpdateCheck.UpdateDownloadComplete" xml:space="preserve">
+    <value>更新下载完成！是否重启 FancyWM 以安装？</value>
+  </data>
+  <data name="Messages.WaitingForAction" xml:space="preserve">
+    <value>等待操作中...</value>
+  </data>
+  <data name="TilingError.CausesRecursiveNesting" xml:space="preserve">
+    <value>无法将面板嵌套到自身内部！</value>
+  </data>
+  <data name="TilingError.InvalidTarget" xml:space="preserve">
+    <value>目标面板不支持此操作！</value>
+  </data>
+  <data name="TilingError.MissingAdjacentWindow" xml:space="preserve">
+    <value>没有相邻窗口！</value>
+  </data>
+  <data name="TilingError.MissingTarget" xml:space="preserve">
+    <value>没有聚焦的窗口！</value>
+  </data>
+  <data name="TilingError.ModifiesTopLevelPanel" xml:space="preserve">
+    <value>无法修改顶级面板！</value>
+  </data>
+  <data name="TilingError.NestingInStackPanel" xml:space="preserve">
+    <value>堆叠面板不能包含其他面板！</value>
+  </data>
+  <data name="TilingError.NoValidPlacementExists" xml:space="preserve">
+    <value>不存在有效的放置方式！</value>
+  </data>
+  <data name="TilingError.PullsBeyondTopLevelPanel" xml:space="preserve">
+    <value>无法再向上移动！</value>
+  </data>
+  <data name="TilingError.TargetCannotFit" xml:space="preserve">
+    <value>无法放入目标面板！</value>
+  </data>
+  <data name="ErrorMessageBox.RestartFancyWM" xml:space="preserve">
+    <value>重启 FancyWM</value>
+  </data>
+  <data name="Overlay.Window.AddRuleForClass" xml:space="preserve">
+    <value>为窗口类添加浮动规则</value>
+  </data>
+  <data name="Overlay.Window.AddRuleForProcess" xml:space="preserve">
+    <value>为进程添加浮动规则</value>
+  </data>
+  <data name="Overlay.Window.MoreOptions" xml:space="preserve">
+    <value>更多选项</value>
+  </data>
+  <data name="Overlay.Window.RightClickToPullUp" xml:space="preserve">
+    <value>右键单击以移至上一级</value>
+  </data>
+  <data name="Overlay.Window.SingleClickToFocus" xml:space="preserve">
+    <value>单击以获取焦点</value>
+  </data>
+  <data name="Messages.NoPreviousDesktop" xml:space="preserve">
+    <value>没有上一个桌面。</value>
+  </data>
+  <data name="Keybinding.MoveToPreviousDesktop.Caption" xml:space="preserve">
+    <value>将窗口移动到上一个桌面</value>
+  </data>
+  <data name="Keybinding.MoveToRightDesktop.Caption" xml:space="preserve">
+    <value>将窗口移动到右侧桌面</value>
+  </data>
+  <data name="Keybinding.MoveToLeftDesktop.Caption" xml:space="preserve">
+    <value>将窗口移动到左侧桌面</value>
+  </data>
+  <data name="Keybinding.MoveToPreviousDesktop.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到上一个虚拟桌面</value>
+  </data>
+  <data name="Keybinding.SwitchToPreviousDesktop.Caption" xml:space="preserve">
+    <value>切换到上一个桌面</value>
+  </data>
+  <data name="Keybinding.SwitchToPreviousDesktop.Description" xml:space="preserve">
+    <value>从当前虚拟桌面切换到上一个虚拟桌面</value>
+  </data>
+  <data name="Overlay.Window.DragActionDetail" xml:space="preserve">
+    <value>拖动到另一个窗口上以进行分组</value>
+  </data>
+  <data name="Interaction.AutoCollapsePanels" xml:space="preserve">
+    <value>自动折叠面板</value>
+  </data>
+  <data name="Interaction.AutoCollapsePanels.Description" xml:space="preserve">
+    <value>仅包含一个窗口的面板将被自动移除。</value>
+  </data>
+  <data name="Messages.NoPreviousDisplay" xml:space="preserve">
+    <value>没有上一个显示器。</value>
+  </data>
+  <data name="Common.Display" xml:space="preserve">
+    <value>显示器</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay1.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 1</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay1.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 1</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay2.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 2</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay2.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 2</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay3.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 3</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay3.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 3</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay4.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 4</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay4.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 4</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay5.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 5</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay5.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 5</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay6.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 6</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay6.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 6</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay7.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 7</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay7.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 7</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay8.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 8</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay8.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 8</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay9.Caption" xml:space="preserve">
+    <value>将窗口移动到显示器 9</value>
+  </data>
+  <data name="Keybinding.MoveToDisplay9.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到显示器 9</value>
+  </data>
+  <data name="Keybinding.MoveToPreviousDisplay.Caption" xml:space="preserve">
+    <value>将窗口移动到上一个显示器</value>
+  </data>
+  <data name="Keybinding.MoveToPreviousDisplay.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前显示器移动到上一个显示器</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay1.Caption" xml:space="preserve">
+    <value>切换到显示器 1</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay1.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 1</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay2.Caption" xml:space="preserve">
+    <value>切换到显示器 2</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay2.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 2</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay3.Caption" xml:space="preserve">
+    <value>切换到显示器 3</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay3.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 3</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay4.Caption" xml:space="preserve">
+    <value>切换到显示器 4</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay4.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 4</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay5.Caption" xml:space="preserve">
+    <value>切换到显示器 5</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay5.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 5</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay6.Caption" xml:space="preserve">
+    <value>切换到显示器 6</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay6.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 6</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay7.Caption" xml:space="preserve">
+    <value>切换到显示器 7</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay7.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 7</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay8.Caption" xml:space="preserve">
+    <value>切换到显示器 8</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay8.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 8</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay9.Caption" xml:space="preserve">
+    <value>切换到显示器 9</value>
+  </data>
+  <data name="Keybinding.SwitchToDisplay9.Description" xml:space="preserve">
+    <value>从当前显示器切换到显示器 9</value>
+  </data>
+  <data name="Keybinding.SwitchToPreviousDisplay.Caption" xml:space="preserve">
+    <value>切换到上一个显示器</value>
+  </data>
+  <data name="Keybinding.SwitchToPreviousDisplay.Description" xml:space="preserve">
+    <value>从当前显示器切换到上一个显示器</value>
+  </data>
+  <data name="Keybinding.ShowDesktop.Caption" xml:space="preserve">
+    <value>显示桌面</value>
+  </data>
+  <data name="Keybinding.ShowDesktop.Description" xml:space="preserve">
+    <value>显示/隐藏桌面</value>
+  </data>
+  <data name="Keybindings.Focus" xml:space="preserve">
+    <value>焦点</value>
+  </data>
+  <data name="Keybindings.MultipleDisplays" xml:space="preserve">
+    <value>显示器</value>
+  </data>
+  <data name="Keybindings.Panels" xml:space="preserve">
+    <value>面板</value>
+  </data>
+  <data name="Keybindings.Sizing" xml:space="preserve">
+    <value>尺寸调整</value>
+  </data>
+  <data name="Keybindings.VirtualDesktops" xml:space="preserve">
+    <value>虚拟桌面</value>
+  </data>
+  <data name="Keybindings.Windows" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Messages.WindowsVersionNotSupported.Caption" xml:space="preserve">
+    <value>您的 Windows 版本不受支持！</value>
+  </data>
+  <data name="Messages.WindowsVersionNotSupported.Description" xml:space="preserve">
+    <value>FancyWM 尝试使用 Windows 的内部虚拟桌面服务（VDS），但该功能未被 Microsoft 官方支持。此消息可在设置中关闭。
+
+      看起来在您的 Windows 版本中，Microsoft 已更改了 VDS 接口，导致 FancyWM 无法检测您的虚拟桌面。
+
+      如果您正在使用受支持的非 Insider 版本 Windows 且仍看到此消息，请选择“是”进行反馈。</value>
+  </data>
+  <data name="Keybindings.DirectMode.Checkbox" xml:space="preserve">
+    <value>无需激活快捷键即可使用？</value>
+  </data>
+  <data name="Interaction.ModifierMoveWindow" xml:space="preserve">
+    <value>按住以移动窗口</value>
+  </data>
+  <data name="Interaction.ModifierMoveWindowFocus" xml:space="preserve">
+    <value>自动激活移动的窗口</value>
+  </data>
+  <data name="Interaction.ModifierMoveWindowFocus.Description" xml:space="preserve">
+    <value>将激活该窗口</value>
+  </data>
+  <data name="Interaction.WindowMovement" xml:space="preserve">
+    <value>窗口移动</value>
+  </data>
+  <data name="General.NotifyVirtualDesktopServiceIncompatibility" xml:space="preserve">
+    <value>在虚拟桌面服务失败时显示警告</value>
+  </data>
+  <data name="General.NotifyVirtualDesktopServiceIncompatibility.Description" xml:space="preserve">
+    <value>FancyWM 尝试使用 Windows 的内部虚拟桌面服务，但该功能未被 Microsoft 官方支持。如果该版本 Windows 不支持，FancyWM 可以向你发出警告。</value>
+  </data>
+  <data name="Keybindings.ActivateOnCapsLock.About" xml:space="preserve">
+    <value>无需松开按键即可激活。⇪ Caps Lock 将不再按原方式工作</value>
+  </data>
+  <data name="Keybindings.ActivateOnCapsLock.Checkbox" xml:space="preserve">
+    <value>使用 ⇪ Caps Lock 作为激活快捷键</value>
+  </data>
+  <data name="Interaction.AutoSplitCount" xml:space="preserve">
+    <value>自动分割阈值 ᴺᴱᵂ</value>
+  </data>
+  <data name="Interaction.AutoSplitCount.Description" xml:space="preserve">
+    <value>当当前聚焦面板的子项数量超过指定值时，将触发自动创建新面板。</value>
+  </data>
+  <data name="About.FOSS" xml:space="preserve">
+    <value>FancyWM 是免费且开源的软件，但它仍然需要与其他软件一样的时间和精力来开发。</value>
+  </data>
+  <data name="Interaction.DelayReposition" xml:space="preserve">
+    <value>释放窗口后再移动 ᴺᴱᵂ</value>
+  </data>
+  <data name="Interaction.DelayReposition.Description" xml:space="preserve">
+    <value>启用后，平铺布局将在窗口移动完成后才更新。</value>
+  </data>
+  <data name="Interaction.Caption" xml:space="preserve">
+    <value>交互</value>
+  </data>
+  <data name="Interface.Caption" xml:space="preserve">
+    <value>界面</value>
+  </data>
+  <data name="Interface.Colors" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="Interface.Sizes" xml:space="preserve">
+    <value>尺寸与间距</value>
+  </data>
+  <data name="Interface.Visuals" xml:space="preserve">
+    <value>视觉效果</value>
+  </data>
+  <data name="Keybinding.SwitchToLeftDesktop.Caption" xml:space="preserve">
+    <value>切换到左侧桌面</value>
+  </data>
+  <data name="Keybinding.SwitchToRightDesktop.Caption" xml:space="preserve">
+    <value>切换到右侧桌面</value>
+  </data>
+  <data name="Keybinding.SwitchToLeftDesktop.Description" xml:space="preserve">
+    <value>从当前虚拟桌面切换到左侧的虚拟桌面</value>
+  </data>
+  <data name="Keybinding.SwitchToRightDesktop.Description" xml:space="preserve">
+    <value>从当前虚拟桌面切换到右侧的虚拟桌面</value>
+  </data>
+  <data name="Keybinding.MoveToLeftDesktop.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到左侧的虚拟桌面</value>
+  </data>
+  <data name="Keybinding.MoveToRightDesktop.Description" xml:space="preserve">
+    <value>将当前聚焦窗口从当前虚拟桌面移动到右侧的虚拟桌面</value>
+  </data>
+  <data name="About.AlreadyRunning" xml:space="preserve">
+    <value>FancyWM 的另一个实例已在运行！</value>
+  </data>
+  <data name="Interaction.MouseAutoFocus" xml:space="preserve">
+    <value>悬停激活窗口</value>
+  </data>
+  <data name="Interaction.MouseAutoFocus.Description" xml:space="preserve">
+    <value>无需点击即可切换窗口焦点。启用 Windows 内置的“悬停激活”功能。</value>
+  </data>
+  <data name="Messages.NewerVersionAvailable" xml:space="preserve">
+    <value>有可用的新版本</value>
+  </data>
+</root>
