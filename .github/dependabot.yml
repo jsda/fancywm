@@ -1,5 +1,4 @@
 version: 2
-
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -18,8 +17,8 @@ updates:
           - "*"
 
     commit-message:
-      prefix: "ci"
+      prefix: "github-actions[bot]"
 
     labels:
       - "dependencies"
-      - "ci"
+      - "github-actions"
