@@ -43,11 +43,11 @@ jobs:
 
     # 当前仓库（含 resx）
     - name: Checkout current repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
 
     # FancyWM 源码
     - name: Checkout FancyWM
-      uses: actions/checkout@v6
+      uses: actions/checkout@v7
       with:
         repository: FancyWM/fancywm
         ref: v${{ inputs.tag_name }}
@@ -62,7 +62,7 @@ jobs:
         Copy-Item "$env:GITHUB_WORKSPACE\Strings.zh-CN.resx" "$env:GITHUB_WORKSPACE\fancywm\FancyWM\Resources\"
 
     - name: Use Nerdbank.GitVersioning to set version variables
-      uses: dotnet/nbgv@v0.5.1
+      uses: dotnet/nbgv@v0.5.2
       id: nbgv
       with:
         path: ${{ github.workspace }}/fancywm
